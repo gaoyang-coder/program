@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARRAY_SIZE	week6/code/dynamiclib/ldtestlocal.c	3;"	d	language:C	file:
+ARRAY_SIZE	week6/code/exam/dytestrt.c	5;"	d	language:C	file:
+ARRAY_SIZE	week6/code/remotetest.c	3;"	d	language:C	file:
+ARRAY_SIZE	week6/code/staticlib/localtest.c	3;"	d	language:C	file:
+SIZE	week07/code/cache.c	3;"	d	language:C	file:
+a	week07/code/prove02.c	/^int a;$/;"	v	language:C
+b	week07/code/prove02.c	/^static int b=10;$/;"	v	language:C	file:
+before_main	week08/test1.c	/^static void __attribute__ ((constructor)) before_main()$/;"	f	language:C	file:
+before_main	week08/test2.c	/^static void __attribute__ ((constructor)) before_main()$/;"	f	language:C	file:
+before_main	week08/test3.c	/^static void __attribute__ ((constructor)) before_main()$/;"	f	language:C	file:
+buf	week07/code/forktxt.c	/^char buf[]={"write to stdout\\n"};$/;"	v	language:C
+callback1	week08/test1.c	/^static void callback1()$/;"	f	language:C	file:
+callback1	week08/test2.c	/^static void callback1()$/;"	f	language:C	file:
+callback1	week08/test3.c	/^static void callback1()$/;"	f	language:C	file:
+callback2	week08/test1.c	/^static void callback2()$/;"	f	language:C	file:
+callback2	week08/test2.c	/^static void callback2()$/;"	f	language:C	file:
+callback2	week08/test3.c	/^static void callback2()$/;"	f	language:C	file:
+callback3	week08/test1.c	/^static void callback3()$/;"	f	language:C	file:
+callback3	week08/test2.c	/^static void callback3()$/;"	f	language:C	file:
+callback3	week08/test3.c	/^static void callback3()$/;"	f	language:C	file:
+fun1	week08/lonjum1.c	/^static void fun1(void)$/;"	f	language:C	file:	signature:(void)
+fun1	week08/lonjum2.c	/^static void fun1(int *a,int *b,int *c)$/;"	f	language:C	file:	signature:(int *a,int *b,int *c)
+fun2	week08/lonjum1.c	/^static void fun2(void)$/;"	f	language:C	file:	signature:(void)
+g_stack_env	week08/lonjum1.c	/^static jmp_buf g_stack_env;$/;"	v	language:C	file:
+g_stack_env	week08/lonjum2.c	/^static jmp_buf g_stack_env;$/;"	v	language:C	file:
+globa	week07/code/simplefork.c	/^int globa=4;$/;"	v	language:C
+initarray	week6/code/dynamiclib/base.c	/^void initarray(int *a,int n) $/;"	f	language:C	signature:(int *a,int n)
+initarray	week6/code/staticlib/base.c	/^void initarray(int *a,int n) $/;"	f	language:C	signature:(int *a,int n)
+main	week07/code/cache.c	/^int main(int arge,char *argv[])$/;"	f	language:C	signature:(int arge,char *argv[])
+main	week07/code/forktxt.c	/^int main()$/;"	f	language:C
+main	week07/code/getid.c	/^int main()$/;"	f	language:C
+main	week07/code/prove.c	/^int main(){$/;"	f	language:C
+main	week07/code/prove02.c	/^int main(int argc,char*argv[],char*envp[]){$/;"	f	language:C	signature:(int argc,char*argv[],char*envp[])
+main	week07/code/simplefork.c	/^int main(void)$/;"	f	language:C	signature:(void)
+main	week07/code/thirdmain.c	/^int main(int argc,char*argv[],char*env[])$/;"	f	language:C	signature:(int argc,char*argv[],char*env[])
+main	week08/call1.c	/^int main()$/;"	f	language:C
+main	week08/call2.c	/^int main()$/;"	f	language:C
+main	week08/lonjum1.c	/^int main(void)$/;"	f	language:C	signature:(void)
+main	week08/lonjum2.c	/^int main(void)$/;"	f	language:C	signature:(void)
+main	week08/memtest.c	/^int main()$/;"	f	language:C
+main	week08/show.c	/^int main(){$/;"	f	language:C
+main	week08/test1.c	/^int main()$/;"	f	language:C
+main	week08/test2.c	/^int main()$/;"	f	language:C
+main	week08/test3.c	/^int main(int argc,char *argv[])$/;"	f	language:C	signature:(int argc,char *argv[])
+main	week6/code/dynamiclib/ldtestlocal.c	/^int main()$/;"	f	language:C
+main	week6/code/exam/dytestrt.c	/^int main()$/;"	f	language:C
+main	week6/code/remotetest.c	/^int main()$/;"	f	language:C
+main	week6/code/staticlib/localtest.c	/^int main()$/;"	f	language:C
+max	week6/code/dynamiclib/aoperand.c	/^int max(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+max	week6/code/staticlib/aoperand.c	/^int max(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+mem_double_free	week08/memtest.c	/^static void mem_double_free()$/;"	f	language:C	file:
+mem_free_wild_pointer	week08/memtest.c	/^static void mem_free_wild_pointer(void)$/;"	f	language:C	file:	signature:(void)
+mem_leak1	week08/memtest.c	/^static void mem_leak1(void)$/;"	f	language:C	file:	signature:(void)
+mem_leak2	week08/memtest.c	/^static void mem_leak2(void)$/;"	f	language:C	file:	signature:(void)
+mem_overrun1	week08/memtest.c	/^static void mem_overrun1(void)$/;"	f	language:C	file:	signature:(void)
+mem_overrun2	week08/memtest.c	/^static void mem_overrun2(void)$/;"	f	language:C	file:	signature:(void)
+print	week07/code/prove.c	/^	void print (char *str,int p)$/;"	f	language:C	signature:(char *str,int p)
+showarray	week6/code/dynamiclib/base.c	/^void showarray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+showarray	week6/code/staticlib/base.c	/^void showarray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+sum	week6/code/dynamiclib/aoperand.c	/^int sum(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+sum	week6/code/staticlib/aoperand.c	/^int sum(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)

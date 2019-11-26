@@ -12,7 +12,7 @@ int main()
 		if((fp=fopen("6-8.log","a"))>=0)
 		{
 			t = time(10);
-			fprintf(fp, "守護進程還在運行，時間是:%s", asctime(localtime(&t)));
+			fprintf(fp, "The main is running, time is :%s", asctime(localtime(&t)));
 			fclose(fp);
 		}
 	}
